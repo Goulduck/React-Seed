@@ -1,0 +1,28 @@
+{
+  "name": "react-seed",
+  "version": "1.0.0",
+  "description": "Basic react skeleton",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Goulduck/react-seed.git"
+  },
+  "author": "Goulduck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Goulduck/react-seed/issues"
+  },
+  "homepage": "https://github.com/Goulduck/react-seed#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^8.0.0",
+    "create-react-class": "^15.6.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "watchify": "^3.11.0"
+  }
+}
